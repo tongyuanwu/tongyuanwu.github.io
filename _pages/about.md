@@ -9,6 +9,12 @@ redirect_from:
 
 Hello! I am Tongyuan Wu (吴统元). I am a postdoc researcher at the Department of Civil Engineering at The University of Hong Kong (HKU). Before that, I obtained my Ph.D. in 2024. My research focuses on the material flow of cement, sand, and gravel embodied in our society, and their carbon and biodiversity implications. 
 
+**Research interest:**  
+material flow analysis  
+building materials  
+carbon emissions  
+biodiversity impact  
+
 **Education:**  
   Ph.D., 2024, The University of Hong Kong  
   M.Eng., 2020, South China University of Technology  
