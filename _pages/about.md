@@ -9,16 +9,14 @@ redirect_from:
 
 Hello! I am Tongyuan Wu (吴统元). I am a postdoc researcher at the Department of Civil Engineering at The University of Hong Kong (HKU). Before that, I obtained my Ph.D. in 2024. My research focuses on the material flow of cement, sand, and gravel embodied in our society, and their carbon and biodiversity implications. 
 
-Education:
-  Ph.D., 2024, The University of Hong Kong
-  M.Eng., 2020, South China University of Technology
-  B.Eng., 2017, Shenzhen University
+**Education:**  
+  Ph.D., 2024, The University of Hong Kong  
+  M.Eng., 2020, South China University of Technology  
+  B.Eng., 2017, Shenzhen University  
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
-A data-driven personal website
+Publications
 ======
 Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
