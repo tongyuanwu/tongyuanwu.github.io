@@ -24,9 +24,9 @@ biodiversity impact
 
 Publications
 ======
-1. **Tongyuan Wu**, Thomas S.T. Ng, Ji Chen (2025) Incorporating carbon capture and storage in decarbonizing China’s cement sector, Renewable and Sustainable Energy Reviews, 209, 115098, [https://doi.org/10.1016/j.rser.2024.115098]
-2. **Tongyuan Wu**, Thomas S.T. Ng, Ji Chen (2025) Prioritizing hotspots for carbon capture and storage deployment in China’s cement sector: A county-level analysis, *Journal of Cleaner Production*, 523, 146375, [https://doi.org/10.1016/j.jclepro.2025.146375]
-3. Jingyang Song, Xiaoke Su, Lijing Hou, Chunli Chu, **Tongyuan Wu**, Hancheng Dai, Yang Ou, Osamu Nishiura, Zhi Cao, and Meiting ju (2025) Integrating Stock-Flow Modeling and Energy System Optimization to Explore Decarbonization Pathways for China’s Cement Industry, *Environmental Science & Technology*, 69, 6938-6948, [https://doi.org/10.1021/acs.est.4c14724]
+1. <u>Tongyuan Wu</u>, Thomas S.T. Ng, Ji Chen (2025) **Incorporating carbon capture and storage in decarbonizing China’s cement sector**, *Renewable and Sustainable Energy Reviews*, 209, 115098. [DOI](https://doi.org/10.1016/j.rser.2024.115098)
+2. **Tongyuan Wu**, Thomas S.T. Ng, Ji Chen (2025) Prioritizing hotspots for carbon capture and storage deployment in China’s cement sector: A county-level analysis, *Journal of Cleaner Production*, 523, 146375, [DOI](https://doi.org/10.1016/j.jclepro.2025.146375)
+3. Jingyang Song, Xiaoke Su, Lijing Hou, Chunli Chu, **Tongyuan Wu**, Hancheng Dai, Yang Ou, Osamu Nishiura, Zhi Cao, and Meiting ju (2025) Integrating Stock-Flow Modeling and Energy System Optimization to Explore Decarbonization Pathways for China’s Cement Industry, *Environmental Science & Technology*, 69, 6938-6948, [DOI](https://doi.org/10.1021/acs.est.4c14724)
 
 For those users that need more advanced functionality, the template also supports the following popular tools:
 - [MathJax](https://www.mathjax.org/) for mathematical equations
