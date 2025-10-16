@@ -24,12 +24,12 @@ biodiversity impact
 
 Publications
 ======
-1. <u>Tongyuan Wu</u>, Thomas S.T. Ng, and Ji Chen (2025) **Incorporating carbon capture and storage in decarbonizing China’s cement sector**, [*Renewable and Sustainable Energy Reviews*](https://doi.org/10.1016/j.rser.2024.115098), 209, 115098.
-2. <u>Tongyuan Wu</u>, Thomas S.T. Ng, and Ji Chen (2025) **Prioritizing hotspots for carbon capture and storage deployment in China’s cement sector: A county-level analysis**, *Journal of Cleaner Production*, 523, 146375, [DOI](https://doi.org/10.1016/j.jclepro.2025.146375)
-3. Jingyang Song, Xiaoke Su, Lijing Hou, Chunli Chu, <u>Tongyuan Wu</u>, Hancheng Dai, Yang Ou, Osamu Nishiura, Zhi Cao, and Meiting ju (2025) **Integrating Stock-Flow Modeling and Energy System Optimization to Explore Decarbonization Pathways for China’s Cement Industry**, *Environmental Science & Technology*, 69, 6938-6948, [DOI](https://doi.org/10.1021/acs.est.4c14724)
-4. <u>Tongyuan Wu</u>, Thomas S.T. Ng, Ji Chen and Zhi Cao (2023) **More intensive use and lifetime extension can enable net-zero emissions in China’s cement cycle**, *Resources, Conservation and Recycling*, 198, 107144. [DOI](https://doi.org/10.1016/j.resconrec.2023.107144)
-5. <u>Tongyuan Wu</u>, Thomas S.T. Ng, and Ji Chen (2022) **Deciphering the CO2 emissions and emission intensity of cement sector in China through decomposition analysis**, *Journal of Cleaner Production*, 352, 131627. [DOI](https://doi.org/10.1016/j.jclepro.2022.131627)
-6. 
+1. <u>Tongyuan Wu</u>, Thomas S.T. Ng, and Ji Chen (2025) [Incorporating carbon capture and storage in decarbonizing China’s cement sector](https://doi.org/10.1016/j.rser.2024.115098), ***Renewable and Sustainable Energy Reviews***, 209, 115098.
+2. <u>Tongyuan Wu</u>, Thomas S.T. Ng, and Ji Chen (2025) [Prioritizing hotspots for carbon capture and storage deployment in China’s cement sector: A county-level analysis](https://doi.org/10.1016/j.jclepro.2025.146375), ***Journal of Cleaner Production***, 523, 146375.
+3. Jingyang Song, Xiaoke Su, Lijing Hou, Chunli Chu, <u>Tongyuan Wu</u>, Hancheng Dai, Yang Ou, Osamu Nishiura, Zhi Cao, and Meiting ju (2025) [Integrating Stock-Flow Modeling and Energy System Optimization to Explore Decarbonization Pathways for China’s Cement Industry](https://doi.org/10.1021/acs.est.4c14724), ***Environmental Science & Technology***, 69, 6938-6948.
+4. <u>Tongyuan Wu</u>, Thomas S.T. Ng, Ji Chen and Zhi Cao (2023) [More intensive use and lifetime extension can enable net-zero emissions in China’s cement cycle](https://doi.org/10.1016/j.resconrec.2023.107144), ***Resources, Conservation and Recycling***, 198, 107144.
+5. <u>Tongyuan Wu</u>, Thomas S.T. Ng, and Ji Chen (2022) [Deciphering the CO2 emissions and emission intensity of cement sector in China through decomposition analysis](https://doi.org/10.1016/j.jclepro.2022.131627), ***Journal of Cleaner Production***, 352, 131627.
+6. Yousong Wang, Tongyuan Wu, Hongyang Li, Martin Skitmore, and Boya Su (2020) [A statistics-based method to quantify residential energy consumption and stock at the city level in China: The case of the Guangdong-Hong Kong-Macao Greater Bay Area cities](https://doi.org/10.1016/j.jclepro.2019.119637), ***Journal of Cleaner Production***, 251, 119637.
 
 For those users that need more advanced functionality, the template also supports the following popular tools:
 - [MathJax](https://www.mathjax.org/) for mathematical equations
