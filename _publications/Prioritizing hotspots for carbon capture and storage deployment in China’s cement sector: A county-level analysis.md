@@ -1,5 +1,5 @@
 ---
-title: "Prioritizing"
+title: "Incorporating carbon capture and storage in decarbonizing China’s cement sector"
 collection: publications
 category: manuscripts
 permalink: /publication/Prioritizing hotspots for carbon capture and storage deployment in China's cement sector: A county-level analysis
