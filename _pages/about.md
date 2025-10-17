@@ -9,7 +9,7 @@ redirect_from:
 
 Hello! I am Tongyuan Wu (吴统元). I am a postdoc researcher at the Department of Civil Engineering at The University of Hong Kong (HKU). My research focuses on the carbon and biodiversity implications of cement, sand, and gravel material flows embodied in our society. Recently, I worked with Prof. [Zhi Cao@Nankai University](https://www.x-mol.com/groups/safari?lang=en) to assess global biodiversity impacts of future aggregate mining. We integrated material flow analysis, machine-learning models, and spatial analysis to project and map future mining area of sand, gravel, and limestone extraction worldwide, and identified low-hanging fruits to mitigate their biodiversity impacts.   
   
-Prior to be a postdoc, I obtained my Ph.D. ..., which focus on developing a material-emissions-uptake framework to delineate decarbonization roadmaps for the cement sector in China.  
+Prior to my postdoc, I completed my Ph.D. at HKU, where my research focused on developing a coupled material-emissions-uptake framework to delineate decarbonization pathways for China's cement sector. This work quantified the dynamic interactions between material demand, industrial carbon emissions, and carbon uptake in concrete and mortar, offering a system understanding of mitigation potential across different technological and policy scenarios.  
   
 Before my Ph.D., I received my M.Eng. (2020) from South China University of Technology (SCUT), and B.Eng. (2017) from Shenzhen Univeristy. My earlier training centered on structural mechanis and design of buildings, which laid the foundation for my later interdisciplinary research bridging civil engineering and sustainability.  
   
