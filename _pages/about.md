@@ -11,16 +11,8 @@ Hello! I am Tongyuan Wu (吴统元). I am a postdoc researcher at the Department
   
 Prior to be a postdoc, I obtained my Ph.D. ..., which focus on developing a material-emissions-uptake framework to delineate decarbonization roadmaps for the cement sector in China.  
   
-Prior to my Ph.D., I obtained my M.E. (2020) in South China University of Technology (SCUT), and B.E. (2017) in Shenzhen Univeristy, ... where I learned about building structure and mechanism...  
-
-
-**Education:**  
-  Ph.D., 2024, The University of Hong Kong  
-  M.Eng., 2020, South China University of Technology  
-  B.Eng., 2017, Shenzhen University  
-
-
-
+Prior to my Ph.D., I obtained my M.E. (2020) in South China University of Technology (SCUT), and B.E. (2017) in Shenzhen Univeristy, where I learned about building structure and mechanism.  
+  
 Publications
 ======
 1. **Tongyuan Wu**, Thomas S.T. Ng, and Ji Chen (2025) Incorporating carbon capture and storage in decarbonizing China’s cement sector, [*Renewable and Sustainable Energy Reviews, 209: 115098*](https://doi.org/10.1016/j.rser.2024.115098).
