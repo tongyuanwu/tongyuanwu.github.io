@@ -1,7 +1,7 @@
 ---
-title: "Enhance Image-to-Point-Cloud Registration with Beltrami Flow"
-authors: Pei An, You Yang, Jiaqi Yang, Muyao Peng, Qiong Liu, Langliang Nan
-venue: International Journal of Computer Vision
+title: "Incorporating carbon capture and storage in decarbonizing China’s cement sector"
+authors: Tongyuan Wu, Thomas S.T. Ng, and Ji Chen
+venue: Renewable and Sustainable Energy Reviews
 date: 2025-01-01
 doi: https://doi.org/10.1007/s11263-025-01634-7
 code: https://github.com/example/project
