@@ -1,8 +1,8 @@
 ---
-title: "Prioritizing hotspots for carbon capture and storage deployment in China’s cement sector: A county-level analysis"
+title: "Prioritizing hotspots for carbon capture and storage deployment in China's cement sector: A county-level analysis"
 collection: publications
 category: manuscripts
-permalink: /publication/Prioritizing hotspots for carbon capture and storage deployment in China’s cement sector: A county-level analysis
+permalink: /publication/Prioritizing hotspots for carbon capture and storage deployment in China's cement sector: A county-level analysis
 excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
 date: 2025-09-01
 venue: 'Journal of Cleaner Production'
