@@ -24,10 +24,15 @@
 
   <div style="flex: 1;">
     <p style="margin: 0;">
-      <strong>{{ post.title }}</strong><br>
+      <!-- 论文标题 -->
+      <strong style="font-size: 1.05rem;">{{ post.title }}</strong><br>
+  
+      <!-- 作者 -->
       {% if post.authors %}
-        {{ post.authors }}<br>
+        <span style="color:#555;">{{ post.authors }}</span><br>
       {% endif %}
+  
+      <!-- 期刊名 + 年份 -->
       {% if post.venue %}
         <em>{{ post.venue }}</em>{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}
       {% elsif post.date %}
