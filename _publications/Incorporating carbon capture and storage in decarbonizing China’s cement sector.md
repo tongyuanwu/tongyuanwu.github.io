@@ -2,7 +2,7 @@
 title: "Incorporating carbon capture and storage in decarbonizing China’s cement sector"
 collection: publications
 category: manuscripts
-permalink: /publication/2015-10-01-paper-title-number-3
+permalink: /publication/Incorporating carbon capture and storage in decarbonizing China’s cement sector
 excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
 date: 2025-10-01
 venue: 'Renewable and Sustainable Energy Reviews'
