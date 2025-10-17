@@ -1,55 +1,47 @@
 {% include base_path %}
 
-{% if post.header.teaser %}
-  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
-{% else %}
-  {% assign teaser = site.teaser %}
-{% endif %}
-
 {% if post.id %}
   {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
 {% else %}
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-          {% endif %}
-          alt="">
-      </div>
+<div class="{{ include.type | default: "list" }}__item" style="margin-bottom: 2rem; border-bottom: 1px solid #e5e5e5; padding-bottom: 1.5rem;">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" style="display: flex; align-items: flex-start;">
+
+    <!-- Left: thumbnail -->
+    {% if post.image %}
+    <div style="flex: 0 0 180px; margin-right: 20px;">
+      <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" style="width:100%; border-radius:6px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+    </div>
     {% endif %}
 
-<div style="display: flex; align-items: flex-start; margin-bottom: 30px;">
-  {% if post.image %}
-  <div style="flex: 0 0 180px; margin-right: 20px;">
-    <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" style="width:100%; border-radius: 6px;">
-  </div>
-  {% endif %}
+    <!-- Right: text block -->
+    <div style="flex: 1; line-height: 1.6;">
+      <p style="margin: 0;">
+        <span style="font-weight:600;">{{ post.title }}</span><br>
+        {% if post.authors %}
+          <span style="color:#333;">{{ post.authors }}</span><br>
+        {% endif %}
+        {% if post.venue %}
+          <em>{{ post.venue }}</em>{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}
+        {% elsif post.date %}
+          {{ post.date | date: "%Y" }}
+        {% endif %}
+      </p>
 
-  <div style="flex: 1;">
-    <p>
-      <strong>{{ post.title }}</strong><br>
-      {{ post.authors }}<br>
-      <em>{{ post.venue }}</em>, {{ post.date | default: "1900-01-01" | date: "%Y" }}<br>
-      {% if post.doi %}
-        <a href="{{ post.doi }}">[Paper]</a>
+      <!-- Links -->
+      <p style="margin: 6px 0 0 0;">
+        {% if post.doi %}<a href="{{ post.doi }}">[Paper]</a>{% endif %}
+        {% if post.code %} <a href="{{ post.code }}">[Code]</a>{% endif %}
+        {% if post.slidesurl %} <a href="{{ post.slidesurl }}">[Slides]</a>{% endif %}
+        {% if post.bibtexurl %} <a href="{{ post.bibtexurl }}">[Bibtex]</a>{% endif %}
+      </p>
+
+      <!-- Abstract -->
+      {% if post.excerpt %}
+        <p style="margin-top: 0.8em; color:#555;">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
       {% endif %}
-      {% if post.code %}
-        | <a href="{{ post.code }}">[Code]</a>
-      {% endif %}
-      {% if post.slidesurl %}
-        | <a href="{{ post.slidesurl }}">[Slides]</a>
-      {% endif %}
-      {% if post.bibtexurl %}
-        | <a href="{{ post.bibtexurl }}">[Bibtex]</a>
-      {% endif %}
-    </p>
-  </div>
+    </div>
+  </article>
 </div>
