@@ -7,13 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I am Tongyuan Wu (吴统元). I am a postdoc researcher at the Department of Civil Engineering at The University of Hong Kong (HKU). Before that, I obtained my Ph.D. in 2024. My research focuses on the material flow of cement, sand, and gravel embodied in our society, and their carbon and biodiversity implications. 
+Hello! I am Tongyuan Wu (吴统元). I am a postdoc researcher at the Department of Civil Engineering at The University of Hong Kong (HKU). My research integrates material flow analysis (MFA) and spatial analysis to investigate carbon and biodiversity implications of cement, sand, and gravel embodied in our society. Recently, I worked with Prof. Zhi Cao@Nankai University to investigate global biodiversity impacts of future aggregate mining,  
+Prior to be a postdoc, I obtained my Ph.D. ..., which focus on developing a material-emissions-uptake framework to delineate decarbonization roadmaps for the cement sector in China.  
+Prior to my Ph.D., I obtained my M.E. (2020) in South China University of Technology (SCUT), and B.E. (2017) in Shenzhen Univeristy, ... where I learned about building structure and mechanism...  
 
-**Research interest:**  
-material flow analysis  
-building materials  
-carbon emissions  
-biodiversity impact  
 
 **Education:**  
   Ph.D., 2024, The University of Hong Kong  
@@ -26,15 +23,10 @@ Publications
 ======
 1. **Tongyuan Wu**, Thomas S.T. Ng, and Ji Chen (2025) Incorporating carbon capture and storage in decarbonizing China’s cement sector, [*Renewable and Sustainable Energy Reviews, 209: 115098*](https://doi.org/10.1016/j.rser.2024.115098).
 2. **Tongyuan Wu**, Thomas S.T. Ng, and Ji Chen (2025) Prioritizing hotspots for carbon capture and storage deployment in China’s cement sector: A county-level analysis, [*Journal of Cleaner Production, 523: 146375*](https://doi.org/10.1016/j.jclepro.2025.146375).
-3. Jingyang Song, Xiaoke Su, Lijing Hou, Chunli Chu, **Tongyuan Wu**, Hancheng Dai, Yang Ou, Osamu Nishiura, Zhi Cao, and Meiting ju (2025) [Integrating Stock-Flow Modeling and Energy System Optimization to Explore Decarbonization Pathways for China’s Cement Industry](https://doi.org/10.1021/acs.est.4c14724), ***Environmental Science & Technology***, 69, 6938-6948.
+3. Jingyang Song, Xiaoke Su, Lijing Hou, Chunli Chu, **Tongyuan Wu**, Hancheng Dai, Yang Ou, Osamu Nishiura, Zhi Cao, and Meiting ju (2025) Integrating Stock-Flow Modeling and Energy System Optimization to Explore Decarbonization Pathways for China’s Cement Industry, [*Environmental Science & Technology, 69, 6938-6948*](https://doi.org/10.1021/acs.est.4c14724).
 4. **Tongyuan Wu**, Thomas S.T. Ng, Ji Chen and Zhi Cao (2023) More intensive use and lifetime extension can enable net-zero emissions in China’s cement cycle, [*Resources, Conservation and Recycling, 198: 107144*](https://doi.org/10.1016/j.resconrec.2023.107144).
 5. **Tongyuan Wu**, Thomas S.T. Ng, and Ji Chen (2022) Deciphering the CO2 emissions and emission intensity of cement sector in China through decomposition analysis, [*Journal of Cleaner Production*, 352: 131627](https://doi.org/10.1016/j.jclepro.2022.131627).
 6. Yousong Wang, **Tongyuan Wu**, Hongyang Li, Martin Skitmore, and Boya Su (2020) A statistics-based method to quantify residential energy consumption and stock at the city level in China: The case of the Guangdong-Hong Kong-Macao Greater Bay Area cities, [*Journal of Cleaner Production*, 251: 119637](https://doi.org/10.1016/j.jclepro.2019.119637).
-
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
 
 Getting started
 ======
