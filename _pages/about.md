@@ -12,6 +12,8 @@ Hello! I am Tongyuan Wu (吴统元). I am a postdoc researcher at the Department
 Prior to my postdoc, I completed my Ph.D. at HKU, where my research focused on developing a coupled material-emissions-uptake framework to delineate decarbonization pathways for China's cement sector. This work quantified the dynamic interactions between material demand, industrial carbon emissions, and carbon uptake in concrete and mortar, offering a system understanding of mitigation potential across different technological and policy scenarios.  
   
 Before my Ph.D., I received my M.Eng. (2020) from South China University of Technology (SCUT), and B.Eng. (2017) from Shenzhen Univeristy (SZU). My earlier training centered on structural mechanis and design of buildings, which laid the foundation for my later interdisciplinary research bridging civil engineering and sustainability.  
+
+Please feel free to contact me at <u>wty25@hku.hk</u>.
   
 Representative Publications
 ------
