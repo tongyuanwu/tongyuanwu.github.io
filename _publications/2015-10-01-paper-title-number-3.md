@@ -1,5 +1,5 @@
 ---
-title: "Paper Title Number 3"
+title: "Incorporating carbon capture and storage in decarbonizing China’s cement sector"
 collection: publications
 category: manuscripts
 permalink: /publication/2015-10-01-paper-title-number-3
