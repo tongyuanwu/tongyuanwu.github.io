@@ -1,14 +1,16 @@
 ---
-title: "Teaching experience 1"
+title: "Principles of civil engineering management"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+venue: "Department of Civil Engineering@HKU"
+date: 2020-09-01
+location: "Hong Kong, China"
+duration: 2020-2024
+role: teaching assistant 
 ---
-
-This is a description of a teaching experience. You can use markdown like any other post.
+ 
+This undergraduate course introduces fundamental principles of civil engineering management, covering project planning, scheduling, cost estimation, and construction logistics. As a teaching assistant, I supported tutorial sessions, guided students through practical exercises, and assisted in grading coursework.
 
 Heading 1
 ======
