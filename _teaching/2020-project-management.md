@@ -2,7 +2,7 @@
 title: "Principles of civil engineering management"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
+permalink: /teaching/2020-project-management
 venue: "Department of Civil Engineering@HKU"
 date: 2020-09-01
 location: "Hong Kong, China"

@@ -1,14 +1,11 @@
 ---
-title: "Spatial analysis workshop"
-collection: teaching
+title: "cement carbon emissions"
+collection: research
 type: "Workshop"
-permalink: /teaching/2025-spatial-analysis-workshop
+permalink: /research/1-cement-carbon-emissions
 venue: "Nankai University"
 date: 2025-07-01
-organizer: Prof. Zhi Cao
-role: instructor  
 duration: 2025.7.14-2025.7.16
-location: "Tianjin, China"
 ---
 
 A hands-on workshop (organized by Prof. Zhi Cao) covering spatial data processing, remote-sensing analysis, and visualization using Python and Google Earth Engine. Topics included basic raster manipulation with Rasterio, GEE image collections and indices (such as NDVI), machine learning classification with CART and Random Forest model, and spatial visualization in Matplotlib for producing figures.

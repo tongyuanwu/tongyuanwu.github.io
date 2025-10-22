@@ -1,0 +1,52 @@
+{% include base_path %}
+
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<!-- === Custom publication layout: image left, text right === -->
+<div class="archive__item" style="display: flex; align-items: flex-start; margin-bottom: 2rem; border-bottom: 1px solid #eee; padding-bottom: 1.2rem;">
+
+  {% if post.image %}
+  <div style="flex: 0 0 180px; margin-right: 20px;">
+    <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" style="width:100%; border-radius:6px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+  </div>
+  {% endif %}
+
+  <div style="flex: 1;">
+    <p style="margin: 0;">
+      <!-- 课程标题 -->
+      <strong style="font-size: 1.05rem;">{{ post.title }}</strong><br>
+
+      <!-- 持续时间 -->
+      {% if post.duration %}
+        <span style="font-weight: 500; color: #666;">{{ post.duration }}</span><br>
+      {% endif %}
+
+	<!-- 教学机构 -->
+	{% if post.institution %}
+  	<em>{{ post.institution }}</em>
+	{% endif %}
+
+	<!-- 角色 -->
+	{% if post.role %}
+  	<p style="margin: 0; color: #555;">
+    	<strong>Role:</strong> <em>{{ post.role }}</em>
+  	</p>
+	{% endif %}
+
+
+    {% if post.excerpt %}
+      <p style="margin-top: 0.8em;">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+    {% endif %}
+  </div>
+</div>
