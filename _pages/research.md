@@ -15,12 +15,6 @@ including cement, sand, and gravel.
 
 This project investigates how the extraction of construction aggregates—sand, gravel, and crushed stone—affects terrestrial biodiversity worldwide. By integrating global material flow analysis with spatial models of mining suitability and species richness, it quantifies the overlap between mining areas and high-richness regions. The results provide science-based insights to guide sustainable sourcing under future material demand scenarios.
 
-<div style="pointer-events: none; user-select: none;">
-  <p align="center" style="margin-top: 30px; margin-bottom: 30px;">
-    <img src="/images/Research-2.jpg" alt="research-2" width="95%">
-  </p>
-</div>
-
 ---
 
 ## Integrating supply- and demand-side to decarbonize China's cement sector
