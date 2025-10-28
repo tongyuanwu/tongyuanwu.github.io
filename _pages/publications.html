@@ -22,6 +22,11 @@ author_profile: true
       {% endif %}
       {% unless title_shown %}
         <h2>{{ category[1].title }}</h2><hr />
+	{% if category[1].title == "Journal Articles" %}
+	  <p style="font-size:0.95em; margin-top:-10px; margin-bottom:15px;">
+	    (* refers to corresponding author.)
+	  </p>
+	{% endif %}
         {% assign title_shown = true %}
       {% endunless %}
       {% include archive-single.html %}
