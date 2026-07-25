@@ -2,7 +2,6 @@
 layout: about
 title: about
 permalink: /
-subtitle: Postdoctoral Researcher · Department of Architecture and Civil Engineering (ACE) · City University of Hong Kong
 
 profile:
   align: right
@@ -31,10 +30,26 @@ latest_posts:
   </p>
 
   <p>
-    My research examines how flows of cement, sand, gravel, and other construction materials shape
-    carbon emissions and biodiversity impacts. I combine material flow analysis, spatial modelling,
-    and machine learning to identify practical pathways toward a low-carbon and nature-positive built environment.
+    My research broadly focuses on <strong>sustainable construction</strong>, drawing on
+    <strong>industrial ecology</strong> to understand and reduce the environmental impacts of
+    construction materials and building systems across their life cycles. I use material flow analysis,
+    carbon accounting, and spatial analysis to examine material use and accumulation, carbon emissions,
+    biodiversity impacts, and climate-related risks. My doctoral work investigated decarbonization
+    pathways for cement and concrete systems, while my current research examines biodiversity risks
+    associated with construction aggregate extraction and climate-related extreme events, particularly
+    flooding. Across these themes, I aim to develop spatially explicit and policy-relevant evidence for
+    a low-carbon, resource-efficient, climate-resilient, and biodiversity-sensitive built environment.
   </p>
+
+  <div class="home-interests">
+    <div class="home-interests-label">Research interests</div>
+    <ul class="home-interest-list">
+      <li>Material flow analysis of building and construction material systems</li>
+      <li>Carbon accounting and decarbonization of the building sector</li>
+      <li>Biodiversity impacts of construction material extraction</li>
+      <li>Climate change impacts, particularly flooding, on the building sector and ecosystems</li>
+    </ul>
+  </div>
 
   <div class="home-actions">
     <a class="home-action-primary" href="{{ '/research/' | relative_url }}">Explore my research</a>
@@ -65,33 +80,6 @@ latest_posts:
       <time datetime="2025">2025</time>
       <span>Co-authored a stock-flow and energy-system study of China's cement industry.</span>
       <span class="home-news-arrow" aria-hidden="true">↗</span>
-    </a>
-  </div>
-</section>
-
-<section class="home-section">
-  <div class="home-section-kicker">What I work on</div>
-  <h2>research themes</h2>
-  <div class="home-grid">
-    <a class="home-card" href="{{ '/research/' | relative_url }}">
-      <span class="home-card-index">01</span>
-      <h3>Construction material flows</h3>
-      <p>Tracing cement, sand, gravel, and building stocks across their full societal life cycles.</p>
-    </a>
-    <a class="home-card" href="{{ '/research/' | relative_url }}">
-      <span class="home-card-index">02</span>
-      <h3>Cement decarbonization</h3>
-      <p>Connecting material demand, industrial emissions, carbon uptake, and mitigation technologies.</p>
-    </a>
-    <a class="home-card" href="{{ '/research/' | relative_url }}">
-      <span class="home-card-index">03</span>
-      <h3>Biodiversity and mining</h3>
-      <p>Mapping where future aggregate extraction may overlap with biodiversity-rich landscapes.</p>
-    </a>
-    <a class="home-card" href="{{ '/research/' | relative_url }}">
-      <span class="home-card-index">04</span>
-      <h3>Spatial sustainability analysis</h3>
-      <p>Using geospatial data and machine learning to turn global scenarios into place-based insights.</p>
     </a>
   </div>
 </section>

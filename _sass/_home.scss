@@ -11,6 +11,43 @@
   }
 }
 
+.home-interests {
+  margin: 1.6rem 0 0.25rem;
+}
+
+.home-interests-label {
+  color: var(--global-theme-color);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.home-interest-list {
+  border-top: 1px solid var(--global-divider-color);
+  list-style: none;
+  margin: 0.75rem 0 0;
+  padding: 0;
+
+  li {
+    border-bottom: 1px solid var(--global-divider-color);
+    display: grid;
+    gap: 0.7rem;
+    grid-template-columns: 0.65rem minmax(0, 1fr);
+    line-height: 1.5;
+    padding: 0.65rem 0;
+
+    &::before {
+      background: var(--global-theme-color);
+      border-radius: 50%;
+      content: "";
+      height: 0.35rem;
+      margin-top: 0.52rem;
+      width: 0.35rem;
+    }
+  }
+}
+
 .home-actions {
   display: flex;
   flex-wrap: wrap;
@@ -164,7 +201,6 @@
   }
 }
 
-.home-card-index,
 .home-card-meta {
   color: var(--global-theme-color);
   font-size: 0.74rem;
