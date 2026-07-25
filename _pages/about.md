@@ -42,6 +42,33 @@ latest_posts:
   </div>
 </div>
 
+<section class="home-section home-section-news">
+  <div class="home-section-kicker">Latest updates</div>
+  <h2>news</h2>
+  <div class="home-news-list">
+    <a class="home-news-item" href="{{ '/teachings/2025-spatial-analysis-workshop/' | relative_url }}">
+      <time datetime="2025-07">Jul 2025</time>
+      <span>Led a hands-on spatial analysis workshop at Nankai University.</span>
+      <span class="home-news-arrow" aria-hidden="true">→</span>
+    </a>
+    <a class="home-news-item" href="https://doi.org/10.1016/j.jclepro.2025.146375">
+      <time datetime="2025">2025</time>
+      <span>Published a county-level analysis of priority locations for cement-sector CCS deployment.</span>
+      <span class="home-news-arrow" aria-hidden="true">↗</span>
+    </a>
+    <a class="home-news-item" href="https://doi.org/10.1016/j.rser.2024.115098">
+      <time datetime="2025">2025</time>
+      <span>Published an integrated assessment of CCS in China's cement decarbonization pathways.</span>
+      <span class="home-news-arrow" aria-hidden="true">↗</span>
+    </a>
+    <a class="home-news-item" href="https://doi.org/10.1021/acs.est.4c14724">
+      <time datetime="2025">2025</time>
+      <span>Co-authored a stock-flow and energy-system study of China's cement industry.</span>
+      <span class="home-news-arrow" aria-hidden="true">↗</span>
+    </a>
+  </div>
+</section>
+
 <section class="home-section">
   <div class="home-section-kicker">What I work on</div>
   <h2>research themes</h2>
@@ -65,6 +92,63 @@ latest_posts:
       <span class="home-card-index">04</span>
       <h3>Spatial sustainability analysis</h3>
       <p>Using geospatial data and machine learning to turn global scenarios into place-based insights.</p>
+    </a>
+  </div>
+</section>
+
+<section class="home-section">
+  <div class="home-section-kicker">Selected work</div>
+  <h2>research projects</h2>
+  <div class="home-project-grid">
+    <a class="home-project home-project-featured" href="{{ '/research/' | relative_url }}">
+      <div class="home-project-image">
+        <img
+          src="{{ '/assets/img/research/research-1.png' | relative_url }}"
+          alt="Integrated framework for cement-sector decarbonization roadmaps"
+          loading="lazy"
+        >
+      </div>
+      <div class="home-project-body">
+        <span class="home-card-meta">Systems modelling</span>
+        <h3>Roadmaps for a net-zero cement sector</h3>
+        <p>
+          Linking material demand, stock dynamics, industrial emissions, carbon uptake, and CCS
+          to assess coherent decarbonization pathways.
+        </p>
+        <span class="home-project-link">Explore the research →</span>
+      </div>
+    </a>
+
+    <a class="home-project" href="https://doi.org/10.1016/j.jclepro.2025.146375">
+      <div class="home-project-image">
+        <img
+          src="{{ '/assets/img/publication_preview/2025-JCP.png' | relative_url }}"
+          alt="Map of prioritized counties for cement-sector CCS deployment in China"
+          loading="lazy"
+        >
+      </div>
+      <div class="home-project-body">
+        <span class="home-card-meta">Spatial prioritization</span>
+        <h3>Where should cement-sector CCS be deployed first?</h3>
+        <p>County-level screening connects storage potential with transport distance and cumulative mitigation.</p>
+        <span class="home-project-link">Read the paper ↗</span>
+      </div>
+    </a>
+
+    <a class="home-project" href="https://doi.org/10.1016/j.resconrec.2023.107144">
+      <div class="home-project-image">
+        <img
+          src="{{ '/assets/img/publication_preview/2023-RCR.jpg' | relative_url }}"
+          alt="Building stock scenarios under intensive use and lifetime extension strategies"
+          loading="lazy"
+        >
+      </div>
+      <div class="home-project-body">
+        <span class="home-card-meta">Demand-side mitigation</span>
+        <h3>Using buildings longer and more intensively</h3>
+        <p>Testing how material-efficiency strategies reshape cement demand, stocks, and net-zero pathways.</p>
+        <span class="home-project-link">Read the paper ↗</span>
+      </div>
     </a>
   </div>
 </section>
