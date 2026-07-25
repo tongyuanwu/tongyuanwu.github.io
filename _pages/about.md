@@ -12,7 +12,7 @@ profile:
     <p>City University of Hong Kong</p>
     <p>Kowloon Tong, Hong Kong</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # rendered manually after the homepage news section
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -82,6 +82,14 @@ latest_posts:
       <span class="home-news-arrow" aria-hidden="true">↗</span>
     </a>
   </div>
+</section>
+
+<section class="home-section home-section-publications">
+  <div class="home-section-kicker">Selected work</div>
+  <h2>
+    <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+  </h2>
+  {% include selected_papers.liquid %}
 </section>
 
 <section class="home-section" id="background">
