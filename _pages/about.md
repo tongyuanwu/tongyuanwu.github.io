@@ -158,19 +158,16 @@ latest_posts:
   <h2>current position & education</h2>
   <div class="home-timeline">
     <div class="home-timeline-row">
-      <div class="home-timeline-date home-timeline-date-range">
-        <span>2024.10</span>
-        <span>– Present</span>
-      </div>
+      <div class="home-timeline-date">Present</div>
       <div class="home-timeline-content">
         <h3>Postdoctoral Research Fellow</h3>
         <div class="home-affiliations">
           <div class="home-affiliation">
-            <a class="home-affiliation-name" href="https://www.cityu.edu.hk/en/ace/">City University of Hong Kong</a>
+            <span class="home-affiliation-name">City University of Hong Kong</span>
             <span>Department of Architecture and Civil Engineering (ACE)</span>
           </div>
           <div class="home-affiliation">
-            <a class="home-affiliation-name" href="https://www.civil.hku.hk/">The University of Hong Kong</a>
+            <span class="home-affiliation-name">The University of Hong Kong</span>
             <span>Department of Civil Engineering</span>
           </div>
         </div>
@@ -180,12 +177,7 @@ latest_posts:
       <div class="home-timeline-date">2024</div>
       <div class="home-timeline-content">
         <h3>Ph.D. in Construction and Infrastructure Management</h3>
-        <p>
-          The University of Hong Kong<br>
-          Supervised by
-          <a href="https://scholars.cityu.edu.hk/en/persons/thomasng">Prof. Thomas S.T. Ng</a>
-          and <a href="https://www.civil.hku.hk/pp-chenj.html">Prof. Ji Chen</a>
-        </p>
+        <p>The University of Hong Kong</p>
       </div>
     </div>
     <div class="home-timeline-row">
