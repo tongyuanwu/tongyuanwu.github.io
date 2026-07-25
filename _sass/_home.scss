@@ -289,6 +289,19 @@
   text-align: right;
 }
 
+.home-timeline-date-range {
+  line-height: 1.3;
+
+  span {
+    display: block;
+  }
+
+  span:last-child {
+    font-size: 0.76rem;
+    margin-top: 0.1rem;
+  }
+}
+
 .home-timeline-content {
   border-left: 2px solid var(--global-divider-color);
   padding: 0 0 1.75rem 1.5rem;
@@ -315,6 +328,38 @@
     color: var(--global-text-color-light);
     line-height: 1.55;
     margin: 0;
+  }
+}
+
+.home-affiliations {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 0.65rem;
+}
+
+.home-affiliation {
+  min-width: 0;
+
+  + .home-affiliation {
+    border-left: 1px solid var(--global-divider-color);
+    padding-left: 1rem;
+  }
+
+  .home-affiliation-name {
+    display: block;
+    font-size: 0.92rem;
+    font-weight: 500;
+    line-height: 1.4;
+  }
+
+  span {
+    color: var(--global-text-color-light);
+    display: block;
+    font-size: 0.84rem;
+    line-height: 1.45;
+    margin-top: 0.2rem;
+    overflow-wrap: anywhere;
   }
 }
 
@@ -391,5 +436,17 @@
 
   .home-timeline-content {
     padding-left: 1.15rem;
+  }
+
+  .home-affiliations {
+    gap: 0.7rem;
+    grid-template-columns: 1fr;
+  }
+
+  .home-affiliation + .home-affiliation {
+    border-left: 0;
+    border-top: 1px solid var(--global-divider-color);
+    padding-left: 0;
+    padding-top: 0.7rem;
   }
 }

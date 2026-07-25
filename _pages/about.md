@@ -153,24 +153,33 @@ latest_posts:
   </div>
 </section>
 
-<section class="home-section">
+<section class="home-section" id="background">
   <div class="home-section-kicker">Background</div>
   <h2>current position & education</h2>
   <div class="home-timeline">
     <div class="home-timeline-row">
-      <div class="home-timeline-date">Present</div>
+      <div class="home-timeline-date home-timeline-date-range">
+        <span>2024.10</span>
+        <span>– Present</span>
+      </div>
       <div class="home-timeline-content">
-        <h3>Postdoctoral Researcher</h3>
-        <p>
-          <a href="https://www.cityu.edu.hk/en/ace/">Department of Architecture and Civil Engineering (ACE)</a><br>
-          City University of Hong Kong
-        </p>
+        <h3>Postdoctoral Research Fellow</h3>
+        <div class="home-affiliations">
+          <div class="home-affiliation">
+            <a class="home-affiliation-name" href="https://www.cityu.edu.hk/en/ace/">City University of Hong Kong</a>
+            <span>Department of Architecture and Civil Engineering (ACE)</span>
+          </div>
+          <div class="home-affiliation">
+            <a class="home-affiliation-name" href="https://www.civil.hku.hk/">The University of Hong Kong</a>
+            <span>Department of Civil Engineering</span>
+          </div>
+        </div>
       </div>
     </div>
     <div class="home-timeline-row">
-      <div class="home-timeline-date">Ph.D.</div>
+      <div class="home-timeline-date">2024</div>
       <div class="home-timeline-content">
-        <h3>Civil Engineering</h3>
+        <h3>Ph.D. in Construction and Infrastructure Management</h3>
         <p>
           The University of Hong Kong<br>
           Supervised by
@@ -182,14 +191,14 @@ latest_posts:
     <div class="home-timeline-row">
       <div class="home-timeline-date">2020</div>
       <div class="home-timeline-content">
-        <h3>Master of Engineering</h3>
+        <h3>Master of Engineering in Construction Management</h3>
         <p>South China University of Technology</p>
       </div>
     </div>
     <div class="home-timeline-row">
       <div class="home-timeline-date">2017</div>
       <div class="home-timeline-content">
-        <h3>Bachelor of Engineering</h3>
+        <h3>Bachelor of Engineering in Civil Engineering</h3>
         <p>Shenzhen University</p>
       </div>
     </div>
