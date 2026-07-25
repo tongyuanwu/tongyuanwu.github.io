@@ -1,30 +1,27 @@
 ---
-layout: archive
-title: "Research"
+layout: page
+title: research
 permalink: /research/
-author_profile: true
+description: Research on construction material flows, climate mitigation, and biodiversity.
+nav: true
+nav_order: 1
 ---
 
-
-My research focuses on the **carbon and biodiversity implications** of construction materials,
-including cement, sand, and gravel.
-
----
+My research examines the **carbon and biodiversity implications of construction materials**, with a particular focus on cement, sand, and gravel.
 
 ## Biodiversity impacts of future aggregate mining
 
-This project investigates how the extraction of construction aggregates—sand, gravel, and crushed stone—affects terrestrial biodiversity worldwide. By integrating global material flow analysis with spatial models of mining suitability and species richness, it quantifies the overlap between mining areas and high-richness regions. The results provide science-based insights to guide sustainable sourcing under future material demand scenarios.
+This project investigates how the extraction of construction aggregates—sand, gravel, and crushed stone—affects terrestrial biodiversity worldwide. By integrating global material flow analysis with spatial models of mining suitability and species richness, it quantifies the overlap between mining areas and high-richness regions. The results provide science-based insights to guide sustainable sourcing under future material-demand scenarios.
 
----
+## Decarbonizing China's cement sector
 
-## Integrating supply- and demand-side to decarbonize China's cement sector
+My doctoral research developed an integrated framework to assess decarbonization pathways for China's cement sector by linking material use, industrial emissions, and carbon uptake. It combines supply-side technologies such as carbon capture and storage with demand-side strategies such as more intensive use and lifetime extension of buildings. The framework helps identify pathways toward net-zero emissions while balancing societal material needs and climate goals.
 
-This is my doctoral project, in which I developed an integrated framework to assess decarbonization pathways for China’s cement sector by linking material use, emissions, and carbon uptake. It combines supply-side technologies such as carbon capture and storage with demand-side strategies such as more intensive use of buildings. Overall, the framework provides insights into achieving net-zero emissions while balancing societal material needs and climate goals.    
-
-<div style="pointer-events: none; user-select: none;">
-  <p align="center" style="margin-top: 30px; margin-bottom: 30px;">
-    <img src="/images/Research-1.png" alt="research-2" width="75%">
-  </p>
+<div class="row justify-content-center">
+  <div class="col-sm-10 mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/research/research-1.png" title="Integrated material–emissions–uptake framework for China's cement sector" class="img-fluid rounded z-depth-1" %}
+  </div>
 </div>
-
----
+<div class="caption">
+  Integrated material–emissions–uptake framework used to examine decarbonization strategies for China's cement sector.
+</div>

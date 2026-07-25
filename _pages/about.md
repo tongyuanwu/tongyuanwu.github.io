@@ -1,16 +1,39 @@
 ---
+layout: about
+title: about
 permalink: /
-title: "About me"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+subtitle: Postdoctoral Researcher · Department of Civil Engineering · The University of Hong Kong
+
+profile:
+  align: right
+  image: prof_pic.jpg
+  image_circular: true
+  more_info: >
+    <p>Department of Civil Engineering</p>
+    <p>The University of Hong Kong</p>
+    <p>Hong Kong, China</p>
+
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: false
+
+latest_posts:
+  enabled: false
 ---
 
-Hello! I am Tongyuan Wu (吴统元). I am a postdoc researcher in the Department of Civil Engineering at The University of Hong Kong (HKU). My research focuses on the carbon and biodiversity implications of cement, sand, and gravel material flows embodied in our society. Recently, I worked with Prof. <a href="https://www.x-mol.com/groups/safari?lang=en" target="_blank" rel="noopener noreferrer">Zhi Cao@Nankai University</a> to assess global biodiversity impacts of future aggregate mining. We integrated material flow analysis, machine-learning models, and spatial analysis to project and map future mining area of sand, gravel, and limestone extraction worldwide, and identified low-hanging fruits to mitigate their biodiversity impacts.   
-  
-Prior to my postdoc, I completed my Ph.D. at HKU, under the supervison of Prof. <a href="https://scholars.cityu.edu.hk/en/persons/thomasng" target="_blank" rel="noopener noreferrer">Thomas S.T. Ng</a> and Prof. <a href="https://www.civil.hku.hk/pp-chenj.html" target="_blank" rel="noopener noreferrer">Ji Chen</a>. My dissertation focused on developing a coupled material-emissions-uptake framework to delineate decarbonization pathways for China's cement sector. This work quantified the dynamic interactions between material demand, industrial carbon emissions, and carbon uptake in concrete and mortar, offering a system understanding of mitigation potential across different technological and policy scenarios.  
-  
-Before my Ph.D., I received my M.Eng. (2020) from South China University of Technology (SCUT), and B.Eng. (2017) from Shenzhen Univeristy (SZU). My earlier training centered on structural mechanis and design of buildings, which laid the foundation for my later interdisciplinary research bridging civil engineering and sustainability.  
+Hello! I am **Tongyuan Wu (吴统元)**. My research focuses on the carbon and biodiversity implications of cement, sand, and gravel material flows embodied in our society.
 
-Please feel free to contact me at <u>wty25@hku.hk</u>.
+Recently, I worked with [Prof. Zhi Cao's group at Nankai University](https://www.x-mol.com/groups/safari?lang=en) to assess the global biodiversity impacts of future aggregate mining. We integrated material flow analysis, machine-learning models, and spatial analysis to project and map future mining areas for sand, gravel, and limestone extraction worldwide, and identified low-hanging opportunities to mitigate their biodiversity impacts.
+
+Prior to my postdoctoral research, I completed my Ph.D. at HKU under the supervision of [Prof. Thomas S.T. Ng](https://scholars.cityu.edu.hk/en/persons/thomasng) and [Prof. Ji Chen](https://www.civil.hku.hk/pp-chenj.html). My dissertation developed a coupled material–emissions–uptake framework to delineate decarbonization pathways for China's cement sector. This work quantified the dynamic interactions among material demand, industrial carbon emissions, and carbon uptake in concrete and mortar, providing a systems-level understanding of mitigation potential across technological and policy scenarios.
+
+Before my Ph.D., I received my M.Eng. (2020) from South China University of Technology and my B.Eng. (2017) from Shenzhen University. My earlier training centered on structural mechanics and building design, laying the foundation for my interdisciplinary research bridging civil engineering and sustainability.
+
+My current research interests include:
+
+- industrial ecology and material flow analysis;
+- climate mitigation for cement and construction materials;
+- biodiversity impacts of mineral extraction;
+- spatial analysis and machine learning for sustainability research.
