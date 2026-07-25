@@ -1,0 +1,239 @@
+/*****************************************************************************
+ * Long-form homepage
+ *****************************************************************************/
+
+.home-intro {
+  font-size: 1.04rem;
+  line-height: 1.75;
+
+  p {
+    margin-bottom: 1.15rem;
+  }
+}
+
+.home-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.home-action-primary,
+.home-action-secondary {
+  border: 1px solid var(--global-theme-color);
+  border-radius: 999px;
+  display: inline-flex;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 0.58rem 1.05rem;
+  text-decoration: none;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
+
+  &:hover {
+    text-decoration: none;
+    transform: translateY(-2px);
+  }
+}
+
+.home-action-primary {
+  background: var(--global-theme-color);
+  color: var(--global-hover-text-color);
+
+  &:hover {
+    color: var(--global-hover-text-color);
+  }
+}
+
+.home-action-secondary {
+  background: transparent;
+  color: var(--global-theme-color);
+
+  &:hover {
+    background: var(--global-theme-color);
+    color: var(--global-hover-text-color);
+  }
+}
+
+.home-section {
+  clear: both;
+  margin: 4rem 0;
+  scroll-margin-top: 5rem;
+
+  > h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    margin-top: 0.25rem;
+  }
+}
+
+.home-section-kicker {
+  color: var(--global-theme-color);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.home-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.home-card {
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.65rem;
+  color: var(--global-text-color);
+  min-height: 11rem;
+  min-width: 0;
+  padding: 1.3rem 1.35rem;
+  position: relative;
+  text-decoration: none;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+
+  h3 {
+    font-size: 1.18rem;
+    margin: 0.55rem 0 0.55rem;
+  }
+
+  p {
+    color: var(--global-text-color-light);
+    line-height: 1.55;
+    margin: 0;
+    overflow-wrap: anywhere;
+  }
+
+  &:hover {
+    border-color: var(--global-theme-color);
+    box-shadow: 0 0.65rem 1.5rem rgba(0, 0, 0, 0.07);
+    color: var(--global-text-color);
+    text-decoration: none;
+    transform: translateY(-3px);
+  }
+}
+
+.home-card-index,
+.home-card-meta {
+  color: var(--global-theme-color);
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.home-grid-compact .home-card {
+  min-height: 9.5rem;
+}
+
+.home-timeline {
+  margin-top: 0.5rem;
+}
+
+.home-timeline-row {
+  display: grid;
+  gap: 1.4rem;
+  grid-template-columns: 6rem minmax(0, 1fr);
+
+  &:last-child .home-timeline-content {
+    padding-bottom: 0;
+  }
+}
+
+.home-timeline-date {
+  color: var(--global-theme-color);
+  font-size: 0.88rem;
+  font-weight: 600;
+  padding-top: 0.2rem;
+  text-align: right;
+}
+
+.home-timeline-content {
+  border-left: 2px solid var(--global-divider-color);
+  padding: 0 0 1.75rem 1.5rem;
+  position: relative;
+
+  &::before {
+    background: var(--global-bg-color);
+    border: 2px solid var(--global-theme-color);
+    border-radius: 50%;
+    content: "";
+    height: 0.7rem;
+    left: -0.42rem;
+    position: absolute;
+    top: 0.28rem;
+    width: 0.7rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+    margin: 0 0 0.35rem;
+  }
+
+  p {
+    color: var(--global-text-color-light);
+    line-height: 1.55;
+    margin: 0;
+  }
+}
+
+.home-text-link {
+  display: inline-block;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 767px) {
+  article > .profile.float-right,
+  article > .profile.float-left {
+    float: none !important;
+    margin: 0 auto 1.75rem !important;
+    max-width: 320px;
+    width: 100%;
+
+    .more-info {
+      margin-top: 0.8rem;
+      text-align: center;
+
+      p {
+        display: block;
+        overflow-wrap: anywhere;
+      }
+    }
+  }
+
+  .post-header .desc {
+    overflow-wrap: anywhere;
+  }
+
+  .home-section {
+    margin: 3rem 0;
+
+    > h2 {
+      font-size: 1.7rem;
+    }
+  }
+
+  .home-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home-card {
+    min-height: 0;
+  }
+
+  .home-timeline-row {
+    gap: 0.8rem;
+    grid-template-columns: 4.3rem minmax(0, 1fr);
+  }
+
+  .home-timeline-content {
+    padding-left: 1.15rem;
+  }
+}
