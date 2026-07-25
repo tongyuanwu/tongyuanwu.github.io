@@ -51,10 +51,6 @@ latest_posts:
     </ul>
   </div>
 
-  <div class="home-actions">
-    <a class="home-action-primary" href="{{ '/research/' | relative_url }}">Explore my research</a>
-    <a class="home-action-secondary" href="{{ '/publications/' | relative_url }}">View publications</a>
-  </div>
 </div>
 
 <section class="home-section home-section-news">

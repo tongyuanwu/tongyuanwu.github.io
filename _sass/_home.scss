@@ -54,49 +54,9 @@ article > .profile img {
   }
 }
 
-.home-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  margin-top: 1.5rem;
-}
-
-.home-action-primary,
-.home-action-secondary {
-  border: 1px solid var(--global-theme-color);
-  border-radius: 999px;
-  display: inline-flex;
-  font-size: 0.9rem;
-  font-weight: 500;
-  padding: 0.58rem 1.05rem;
-  text-decoration: none;
-  transition:
-    background-color 0.2s ease,
-    color 0.2s ease,
-    transform 0.2s ease;
-
-  &:hover {
-    text-decoration: none;
-    transform: translateY(-2px);
-  }
-}
-
-.home-action-primary {
-  background: var(--global-theme-color);
-  color: var(--global-hover-text-color);
-
-  &:hover {
-    color: var(--global-hover-text-color);
-  }
-}
-
-.home-action-secondary {
-  background: transparent;
-  color: var(--global-theme-color);
-
-  &:hover {
-    background: var(--global-theme-color);
-    color: var(--global-hover-text-color);
+@media (min-width: 768px) {
+  .home-interests {
+    width: calc(70% - 1rem);
   }
 }
 
