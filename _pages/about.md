@@ -44,7 +44,6 @@ latest_posts:
       <li>Material flow analysis of building and construction material systems</li>
       <li>Carbon accounting and decarbonization of the building sector</li>
       <li>Biodiversity impacts of construction material extraction</li>
-      <li>Climate change impacts, particularly flooding, on the building sector and ecosystems</li>
     </ul>
   </div>
 
