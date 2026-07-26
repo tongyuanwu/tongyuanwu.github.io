@@ -2,8 +2,8 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-      {% if page.permalink != '/' %}
-        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+      {% if page.permalink != '/' or page.one_page_nav %}
+        <a class="navbar-brand title font-weight-lighter" href="{{ '/' | relative_url }}#about">
           {% if site.title == 'blank' %}
             {% if site.first_name %}
               <span class="font-weight-bold">
@@ -47,10 +47,10 @@
           {% endfor %}
 
           <!-- About -->
-          <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/' | relative_url }}">
+          <li class="nav-item one-page-nav-item {% if page.permalink == '/' %}active{% endif %}">
+            <a class="nav-link" href="{{ '/' | relative_url }}#about" data-section-link="about">
               {{- about_title }}
-              {% if page.permalink == '/' %}
+              {% if page.permalink == '/' and page.one_page_nav != true %}
                 <span class="sr-only">(current)</span>
               {% endif %}
             </a>
@@ -99,7 +99,7 @@
                 </li>
               {% else %}
                 {% assign parent_link = p.permalink | remove: 'index.html' %}
-                <li class="nav-item {% if page.url contains parent_link %}active{% endif %}">
+                <li class="nav-item {% if p.nav_anchor %}one-page-nav-item{% endif %} {% if page.url contains parent_link %}active{% endif %}">
                   {%- if p.permalink contains '://' -%}
                     {%- assign url = p.permalink -%}
                   {%- elsif p.permalink contains '/blog/' -%}
@@ -107,7 +107,11 @@
                   {%- else -%}
                     {%- assign url = p.url -%}
                   {%- endif %}
-                  <a class="nav-link" href="{{ url | relative_url }}">
+                  <a
+                    class="nav-link"
+                    href="{% if p.nav_anchor %}{{ '/' | relative_url }}#{{ p.nav_anchor }}{% else %}{{ url | relative_url }}{% endif %}"
+                    {% if p.nav_anchor %}data-section-link="{{ p.nav_anchor }}"{% endif %}
+                  >
                     {{- p.title }}
                     {% if page.url contains p.url %}
                       <span class="sr-only">(current)</span>

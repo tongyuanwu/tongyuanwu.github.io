@@ -5,6 +5,7 @@ permalink: /research/
 description: Research on construction material flows, climate mitigation, and biodiversity.
 nav: true
 nav_order: 1
+nav_anchor: research
 ---
 
 My research examines the **carbon and biodiversity implications of construction materials**, with a particular focus on cement, sand, and gravel.

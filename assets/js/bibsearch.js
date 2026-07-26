@@ -52,7 +52,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const updateInputField = () => {
     const hashValue = decodeURIComponent(window.location.hash.substring(1)); // Remove the '#' character
-    document.getElementById("bibsearch").value = hashValue;
+    const input = document.getElementById("bibsearch");
+
+    // Preserve regular page anchors, including the one-page navigation sections
+    // and direct links to individual bibliography entries.
+    if (hashValue && document.getElementById(hashValue)) {
+      input.value = "";
+      filterItems("");
+      return;
+    }
+
+    input.value = hashValue;
     filterItems(hashValue);
   };
 
