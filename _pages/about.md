@@ -220,8 +220,6 @@ latest_posts:
     An asterisk denotes a corresponding author.
   </p>
 
-  {% include bib_search.liquid %}
-
   <div class="publications">
     {% bibliography %}
   </div>
