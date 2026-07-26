@@ -32,15 +32,10 @@ latest_posts:
   </p>
 
   <p>
-    My research broadly focuses on <strong>sustainable construction</strong>, drawing on
-    <strong>industrial ecology</strong> to understand and reduce the environmental impacts of
-    construction materials and building systems across their life cycles. I use material flow analysis,
-    carbon accounting, and spatial analysis to examine material use and accumulation, carbon emissions,
-    biodiversity impacts, and climate-related risks. My doctoral work investigated decarbonization
-    pathways for cement and concrete systems, while my current research examines biodiversity risks
-    associated with construction aggregate extraction and climate-related extreme events, particularly
-    flooding. Across these themes, I aim to develop spatially explicit and policy-relevant evidence for
-    a low-carbon, resource-efficient, climate-resilient, and biodiversity-sensitive built environment.
+    My research lies at the intersection of <strong>sustainable construction</strong> and
+    <strong>industrial ecology</strong>. Using material flow, carbon, and spatial analysis, I study how
+    construction materials shape emissions, biodiversity, and climate risks. My goal is to support a
+    low-carbon, resource-efficient, climate-resilient, and biodiversity-sensitive built environment.
   </p>
 
   <div class="home-interests">
