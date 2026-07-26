@@ -183,26 +183,6 @@ latest_posts:
     </a>
   </div>
 
-  <div class="home-research-details">
-    <article class="home-research-detail">
-      <h3>Biodiversity impacts of future aggregate mining</h3>
-      <p>
-        This project investigates how the extraction of construction aggregates—sand, gravel, and crushed
-        stone—affects terrestrial biodiversity worldwide. By integrating global material flow analysis with
-        spatial models of mining suitability and species richness, it quantifies the overlap between mining
-        areas and high-richness regions.
-      </p>
-    </article>
-    <article class="home-research-detail" id="decarbonizing-chinas-cement-sector">
-      <h3>Decarbonizing China's cement sector</h3>
-      <p>
-        My doctoral research links material use, industrial emissions, and carbon uptake to assess
-        decarbonization pathways for China's cement sector. It combines supply-side technologies such as
-        carbon capture and storage with demand-side strategies such as more intensive use and lifetime
-        extension of buildings.
-      </p>
-    </article>
-  </div>
 </section>
 
 <section class="home-section one-page-section" id="publications">
