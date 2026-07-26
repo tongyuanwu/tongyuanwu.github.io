@@ -3,6 +3,7 @@ layout: about
 title: about
 permalink: /
 one_page_nav: true
+show_home_news: false
 
 profile:
   align: right
@@ -54,6 +55,7 @@ latest_posts:
 
 </div>
 
+{% if page.show_home_news %}
 <section class="home-section home-section-news">
   <div class="home-section-kicker">Latest updates</div>
   <h2>news</h2>
@@ -80,6 +82,7 @@ latest_posts:
     </a>
   </div>
 </section>
+{% endif %}
 
 <section class="home-section" id="background">
   <div class="home-section-kicker">Background</div>
