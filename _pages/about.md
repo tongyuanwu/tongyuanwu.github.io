@@ -131,56 +131,24 @@ latest_posts:
   </p>
 
   <div class="home-project-grid">
-    <a class="home-project home-project-featured" href="#decarbonizing-chinas-cement-sector">
+    <article class="home-project home-project-featured home-project-static">
       <div class="home-project-image">
         <img
-          src="{{ '/assets/img/research/research-1.png' | relative_url }}"
-          alt="Integrated framework for cement-sector decarbonization roadmaps"
+          src="{{ '/assets/img/research/mining-panels-ab.jpg' | relative_url }}"
+          alt="Global construction aggregate extraction scenarios and country-level reductions shown in panels a and b"
           loading="lazy"
         >
       </div>
       <div class="home-project-body">
-        <span class="home-card-meta">Systems modelling</span>
-        <h3>Roadmaps for a net-zero cement sector</h3>
+        <span class="home-card-meta">Biodiversity &amp; mining</span>
+        <h3>Mapping future biodiversity risks of aggregate mining</h3>
         <p>
-          Linking material demand, stock dynamics, industrial emissions, carbon uptake, and CCS
-          to assess coherent decarbonization pathways.
+          Tracing how future demand for sand, gravel, and crushed stone may reshape mining footprints
+          and terrestrial biodiversity risks worldwide.
         </p>
-        <span class="home-project-link">Explore the research →</span>
+        <span class="home-project-link">Nature Ecology &amp; Evolution · 2026</span>
       </div>
-    </a>
-
-    <a class="home-project" href="https://doi.org/10.1016/j.jclepro.2025.146375">
-      <div class="home-project-image">
-        <img
-          src="{{ '/assets/img/publication_preview/2025-JCP.png' | relative_url }}"
-          alt="Map of prioritized counties for cement-sector CCS deployment in China"
-          loading="lazy"
-        >
-      </div>
-      <div class="home-project-body">
-        <span class="home-card-meta">Spatial prioritization</span>
-        <h3>Where should cement-sector CCS be deployed first?</h3>
-        <p>County-level screening connects storage potential with transport distance and cumulative mitigation.</p>
-        <span class="home-project-link">Read the paper ↗</span>
-      </div>
-    </a>
-
-    <a class="home-project" href="https://doi.org/10.1016/j.resconrec.2023.107144">
-      <div class="home-project-image">
-        <img
-          src="{{ '/assets/img/publication_preview/2023-RCR.jpg' | relative_url }}"
-          alt="Building stock scenarios under intensive use and lifetime extension strategies"
-          loading="lazy"
-        >
-      </div>
-      <div class="home-project-body">
-        <span class="home-card-meta">Demand-side mitigation</span>
-        <h3>Using buildings longer and more intensively</h3>
-        <p>Testing how material-efficiency strategies reshape cement demand, stocks, and net-zero pathways.</p>
-        <span class="home-project-link">Read the paper ↗</span>
-      </div>
-    </a>
+    </article>
   </div>
 
 </section>

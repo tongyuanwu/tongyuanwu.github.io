@@ -257,6 +257,20 @@ article > .profile img {
   }
 }
 
+.home-project-static {
+  cursor: default;
+
+  &:hover {
+    border-color: var(--global-divider-color);
+    box-shadow: none;
+    transform: none;
+
+    .home-project-link {
+      transform: none;
+    }
+  }
+}
+
 .home-project-image {
   aspect-ratio: 16 / 10;
   background: #fff;
