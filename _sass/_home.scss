@@ -55,8 +55,12 @@ article > .profile img {
 }
 
 @media (min-width: 768px) {
+  article > .profile {
+    width: 26%;
+  }
+
   .home-interests {
-    width: calc(70% - 1rem);
+    width: calc(74% - 1rem);
   }
 }
 
