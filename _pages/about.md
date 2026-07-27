@@ -149,6 +149,25 @@ latest_posts:
         <span class="home-project-link">Global assessment · Scenario modelling</span>
       </div>
     </article>
+
+    <article class="home-project home-project-featured home-project-static">
+      <div class="home-project-image">
+        <img
+          src="{{ '/assets/img/research/flood-panels-ab.png' | relative_url }}"
+          alt="Global river-flood depth map and flooded habitat area by terrestrial habitat shown in panels a and b"
+          loading="lazy"
+        >
+      </div>
+      <div class="home-project-body">
+        <span class="home-card-meta">Climate risk &amp; biodiversity</span>
+        <h3>Climate change deepens river-flood exposure across terrestrial vertebrate habitats</h3>
+        <p>
+          Combining global flood-depth projections with habitat maps for more than 30,000 species
+          to reveal how climate change shifts flooded habitats toward deeper inundation.
+        </p>
+        <span class="home-project-link">Flood-depth modelling · Habitat exposure</span>
+      </div>
+    </article>
   </div>
 
 </section>
