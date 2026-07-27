@@ -130,25 +130,6 @@ latest_posts:
     <article class="home-project home-project-featured home-project-static">
       <div class="home-project-image">
         <img
-          src="{{ '/assets/img/research/mining-panels-ab.jpg' | relative_url }}"
-          alt="Global construction aggregate extraction scenarios and country-level reductions shown in panels a and b"
-          loading="lazy"
-        >
-      </div>
-      <div class="home-project-body">
-        <span class="home-card-meta">Biodiversity &amp; mining</span>
-        <h3>Mapping future biodiversity risks of aggregate mining</h3>
-        <p>
-          Tracing how future demand for sand, gravel, and crushed stone may reshape mining footprints
-          and terrestrial biodiversity risks worldwide.
-        </p>
-        <span class="home-project-link">Global assessment · Scenario modelling</span>
-      </div>
-    </article>
-
-    <article class="home-project home-project-featured home-project-static">
-      <div class="home-project-image">
-        <img
           src="{{ '/assets/img/research/flood-panels-ab.png' | relative_url }}"
           alt="Global river-flood depth map and flooded habitat area by terrestrial habitat shown in panels a and b"
           loading="lazy"
@@ -162,6 +143,25 @@ latest_posts:
           to reveal how climate change shifts flooded habitats toward deeper inundation.
         </p>
         <span class="home-project-link">Flood-depth modelling · Habitat exposure</span>
+      </div>
+    </article>
+
+    <article class="home-project home-project-featured home-project-static">
+      <div class="home-project-image">
+        <img
+          src="{{ '/assets/img/research/mining-panels-ab.jpg' | relative_url }}"
+          alt="Global construction aggregate extraction scenarios and country-level reductions shown in panels a and b"
+          loading="lazy"
+        >
+      </div>
+      <div class="home-project-body">
+        <span class="home-card-meta">Biodiversity &amp; mining</span>
+        <h3>Mapping future biodiversity risks of aggregate mining</h3>
+        <p>
+          Tracing how future demand for sand, gravel, and crushed stone may reshape mining footprints
+          and terrestrial biodiversity risks worldwide.
+        </p>
+        <span class="home-project-link">Global assessment · Scenario modelling</span>
       </div>
     </article>
   </div>
