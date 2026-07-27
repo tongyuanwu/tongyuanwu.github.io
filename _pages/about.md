@@ -123,12 +123,8 @@ latest_posts:
 </section>
 
 <section class="home-section one-page-section" id="research">
-  <div class="home-section-kicker">What I work on</div>
-  <h2>research</h2>
-  <p class="home-section-intro">
-    My research examines the <strong>carbon and biodiversity implications of construction materials</strong>,
-    with a particular focus on cement, sand, and gravel.
-  </p>
+  <div class="home-section-kicker">Research in progress</div>
+  <h2>current projects</h2>
 
   <div class="home-project-grid">
     <article class="home-project home-project-featured home-project-static">
