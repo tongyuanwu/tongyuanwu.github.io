@@ -186,6 +186,22 @@ latest_posts:
   <div class="home-section-kicker">Knowledge sharing</div>
   <h2>teaching & workshops</h2>
   <div class="home-grid home-grid-compact">
+    <article class="home-card home-card-static">
+      <span class="home-card-meta">ISIE-SEM Summer School · 2026</span>
+      <h3>MFA with Python: Open Tools for Urgent Sustainability Challenges</h3>
+      <p>
+        Teaching Assistant supporting hands-on use of the GLOBUS repository for global building-sector
+        material flow analysis and Python-based implementation.
+      </p>
+    </article>
+    <article class="home-card home-card-static">
+      <span class="home-card-meta">Undergraduate course · 2026</span>
+      <h3>CA2418 Green Building and Construction</h3>
+      <p>
+        Course Developer for materials on life cycle and whole-life carbon assessment,
+        low-carbon construction materials, and net-zero buildings.
+      </p>
+    </article>
     <a class="home-card" href="{{ '/teachings/2025-spatial-analysis-workshop/' | relative_url }}">
       <span class="home-card-meta">Workshop · 2025</span>
       <h3>Spatial Analysis Workshop</h3>

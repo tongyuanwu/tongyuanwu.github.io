@@ -219,6 +219,16 @@ article > .profile img {
   text-transform: uppercase;
 }
 
+.home-card-static {
+  cursor: default;
+
+  &:hover {
+    border-color: var(--global-divider-color);
+    box-shadow: none;
+    transform: none;
+  }
+}
+
 .home-grid-compact .home-card {
   min-height: 9.5rem;
 }
