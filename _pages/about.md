@@ -146,7 +146,7 @@ latest_posts:
           Tracing how future demand for sand, gravel, and crushed stone may reshape mining footprints
           and terrestrial biodiversity risks worldwide.
         </p>
-        <span class="home-project-link">Global assessment · Scenario modelling · 2025</span>
+        <span class="home-project-link">Global assessment · Scenario modelling</span>
       </div>
     </article>
   </div>
