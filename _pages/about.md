@@ -1,16 +1,216 @@
 ---
+layout: about
+title: about
 permalink: /
-title: "About me"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+one_page_nav: true
+show_home_news: false
+
+profile:
+  align: right
+  image: prof_pic.jpg
+  image_circular: false
+  more_info: >
+    <p><a href="https://www.cityu.edu.hk/en/ace/">Department of Architecture and Civil Engineering (ACE)</a></p>
+    <p>City University of Hong Kong</p>
+    <p>Kowloon Tong, Hong Kong</p>
+
+selected_papers: false # rendered manually after the homepage news section
+social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: false
+
+latest_posts:
+  enabled: false
 ---
 
-Hello! I am Tongyuan Wu (吴统元). I am a postdoc researcher in the Department of Civil Engineering at The University of Hong Kong (HKU). My research focuses on the carbon and biodiversity implications of cement, sand, and gravel material flows embodied in our society. Recently, I worked with Prof. <a href="https://www.x-mol.com/groups/safari?lang=en" target="_blank" rel="noopener noreferrer">Zhi Cao@Nankai University</a> to assess global biodiversity impacts of future aggregate mining. We integrated material flow analysis, machine-learning models, and spatial analysis to project and map future mining area of sand, gravel, and limestone extraction worldwide, and identified low-hanging fruits to mitigate their biodiversity impacts.   
-  
-Prior to my postdoc, I completed my Ph.D. at HKU, under the supervison of Prof. <a href="https://scholars.cityu.edu.hk/en/persons/thomasng" target="_blank" rel="noopener noreferrer">Thomas S.T. Ng</a> and Prof. <a href="https://www.civil.hku.hk/pp-chenj.html" target="_blank" rel="noopener noreferrer">Ji Chen</a>. My dissertation focused on developing a coupled material-emissions-uptake framework to delineate decarbonization pathways for China's cement sector. This work quantified the dynamic interactions between material demand, industrial carbon emissions, and carbon uptake in concrete and mortar, offering a system understanding of mitigation potential across different technological and policy scenarios.  
-  
-Before my Ph.D., I received my M.Eng. (2020) from South China University of Technology (SCUT), and B.Eng. (2017) from Shenzhen Univeristy (SZU). My earlier training centered on structural mechanis and design of buildings, which laid the foundation for my later interdisciplinary research bridging civil engineering and sustainability.  
+<div class="home-intro">
+  <p>
+    Hello! I am <strong>Tongyuan Wu (吴统元)</strong>, a postdoctoral researcher at the
+    <a href="https://www.cityu.edu.hk/en/ace/">Department of Architecture and Civil Engineering (ACE)</a>,
+    City University of Hong Kong.
+  </p>
 
-Please feel free to contact me at <u>wty25@hku.hk</u>.
+  <p>
+    My research lies at the intersection of <strong>sustainable construction</strong> and
+    <strong>industrial ecology</strong>. Using material flow, carbon, and spatial analysis, I study how
+    construction materials shape emissions, biodiversity, and climate risks. My goal is to support a
+    low-carbon, resource-efficient, climate-resilient, and biodiversity-sensitive built environment.
+  </p>
+
+  <div class="home-interests">
+    <div class="home-interests-label">Research interests</div>
+    <ul class="home-interest-list">
+      <li>Material flow analysis of building and construction material systems</li>
+      <li>Carbon accounting and decarbonization of the building sector</li>
+      <li>Biodiversity impacts of construction material extraction</li>
+    </ul>
+  </div>
+
+</div>
+
+{% if page.show_home_news %}
+<section class="home-section home-section-news">
+  <div class="home-section-kicker">Latest updates</div>
+  <h2>news</h2>
+  <div class="home-news-list">
+    <a class="home-news-item" href="{{ '/teachings/2025-spatial-analysis-workshop/' | relative_url }}">
+      <time datetime="2025-07">Jul 2025</time>
+      <span>Led a hands-on spatial analysis workshop at Nankai University.</span>
+      <span class="home-news-arrow" aria-hidden="true">→</span>
+    </a>
+    <a class="home-news-item" href="https://doi.org/10.1016/j.jclepro.2025.146375">
+      <time datetime="2025">2025</time>
+      <span>Published a county-level analysis of priority locations for cement-sector CCS deployment.</span>
+      <span class="home-news-arrow" aria-hidden="true">↗</span>
+    </a>
+    <a class="home-news-item" href="https://doi.org/10.1016/j.rser.2024.115098">
+      <time datetime="2025">2025</time>
+      <span>Published an integrated assessment of CCS in China's cement decarbonization pathways.</span>
+      <span class="home-news-arrow" aria-hidden="true">↗</span>
+    </a>
+    <a class="home-news-item" href="https://doi.org/10.1021/acs.est.4c14724">
+      <time datetime="2025">2025</time>
+      <span>Co-authored a stock-flow and energy-system study of China's cement industry.</span>
+      <span class="home-news-arrow" aria-hidden="true">↗</span>
+    </a>
+  </div>
+</section>
+{% endif %}
+
+<section class="home-section" id="background">
+  <div class="home-section-kicker">Background</div>
+  <h2>current position & education</h2>
+  <div class="home-timeline">
+    <div class="home-timeline-row">
+      <div class="home-timeline-date">Present</div>
+      <div class="home-timeline-content">
+        <h3>Postdoctoral Research Fellow</h3>
+        <div class="home-affiliations">
+          <div class="home-affiliation">
+            <span class="home-affiliation-name">City University of Hong Kong</span>
+            <span>Department of Architecture and Civil Engineering (ACE)</span>
+          </div>
+          <div class="home-affiliation">
+            <span class="home-affiliation-name">The University of Hong Kong</span>
+            <span>Department of Civil Engineering</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="home-timeline-row">
+      <div class="home-timeline-date">2024</div>
+      <div class="home-timeline-content">
+        <h3>Ph.D. in Construction and Infrastructure Management</h3>
+        <p>The University of Hong Kong</p>
+      </div>
+    </div>
+    <div class="home-timeline-row">
+      <div class="home-timeline-date">2020</div>
+      <div class="home-timeline-content">
+        <h3>Master of Engineering in Construction Management</h3>
+        <p>South China University of Technology</p>
+      </div>
+    </div>
+    <div class="home-timeline-row">
+      <div class="home-timeline-date">2017</div>
+      <div class="home-timeline-content">
+        <h3>Bachelor of Engineering in Civil Engineering</h3>
+        <p>Shenzhen University</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="home-section one-page-section" id="research">
+  <div class="home-section-kicker">Research in progress</div>
+  <h2>current projects</h2>
+
+  <div class="home-project-grid">
+    <article class="home-project home-project-featured home-project-static">
+      <div class="home-project-image">
+        <img
+          src="{{ '/assets/img/research/flood-panels-ab.png' | relative_url }}"
+          alt="Global river-flood depth map and flooded habitat area by terrestrial habitat shown in panels a and b"
+          loading="lazy"
+        >
+      </div>
+      <div class="home-project-body">
+        <span class="home-card-meta">Climate risk &amp; biodiversity</span>
+        <h3>Climate change deepens river-flood exposure across terrestrial vertebrate habitats</h3>
+        <p>
+          Combining global flood-depth projections with habitat maps for more than 30,000 species
+          to reveal how climate change shifts flooded habitats toward deeper inundation.
+        </p>
+        <span class="home-project-link">Flood-depth modelling · Habitat exposure</span>
+      </div>
+    </article>
+
+    <article class="home-project home-project-featured home-project-static">
+      <div class="home-project-image">
+        <img
+          src="{{ '/assets/img/research/mining-panels-ab.jpg' | relative_url }}"
+          alt="Global construction aggregate extraction scenarios and country-level reductions shown in panels a and b"
+          loading="lazy"
+        >
+      </div>
+      <div class="home-project-body">
+        <span class="home-card-meta">Biodiversity &amp; mining</span>
+        <h3>Mapping future biodiversity risks of aggregate mining</h3>
+        <p>
+          Tracing how future demand for sand, gravel, and crushed stone may reshape mining footprints
+          and terrestrial biodiversity risks worldwide.
+        </p>
+        <span class="home-project-link">Global assessment · Scenario modelling</span>
+      </div>
+    </article>
+  </div>
+
+</section>
+
+<section class="home-section one-page-section" id="publications">
+  <div class="home-section-kicker">Research output</div>
+  <h2>publications</h2>
+  <p class="home-section-intro">
+    You can also find my work on
+    <a href="https://scholar.google.com/citations?user=NFY15oIAAAAJ&hl=en">Google Scholar</a>.
+    An asterisk denotes a corresponding author.
+  </p>
+
+  <div class="publications">
+    {% bibliography %}
+  </div>
+</section>
+
+<section class="home-section one-page-section" id="teaching">
+  <div class="home-section-kicker">Knowledge sharing</div>
+  <h2>teaching & workshops</h2>
+  <div class="home-grid home-grid-compact">
+    <article class="home-card home-card-static">
+      <span class="home-card-meta">ISIE-SEM Summer School · 2026</span>
+      <h3>MFA with Python: Open Tools for Urgent Sustainability Challenges</h3>
+      <p>
+        Teaching Assistant supporting hands-on use of the GLOBUS repository for global building-sector
+        material flow analysis and Python-based implementation.
+      </p>
+    </article>
+    <article class="home-card home-card-static">
+      <span class="home-card-meta">Undergraduate course · 2026</span>
+      <h3>CA2418 Green Building and Construction</h3>
+      <p>
+        Course Developer for materials on life cycle and whole-life carbon assessment,
+        low-carbon construction materials, and net-zero buildings.
+      </p>
+    </article>
+    <a class="home-card" href="{{ '/teachings/2025-spatial-analysis-workshop/' | relative_url }}">
+      <span class="home-card-meta">Workshop · 2025</span>
+      <h3>Spatial Analysis Workshop</h3>
+      <p>Python, Google Earth Engine, remote sensing, random forests, and scientific visualization.</p>
+    </a>
+    <a class="home-card" href="{{ '/teachings/2020-civil-engineering-management/' | relative_url }}">
+      <span class="home-card-meta">Undergraduate course · 2020–2024</span>
+      <h3>Principles of Civil Engineering Management</h3>
+      <p>Project planning, scheduling, cost estimation, and construction logistics.</p>
+    </a>
+  </div>
+</section>
