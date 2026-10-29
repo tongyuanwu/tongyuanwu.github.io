@@ -1,9 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const nav = document.getElementById("navbar");
   const links = Array.from(document.querySelectorAll("[data-section-link]"));
-  const sections = links
-    .map((link) => document.getElementById(link.dataset.sectionLink))
-    .filter((section) => section !== null);
+  const sections = links.map((link) => document.getElementById(link.dataset.sectionLink)).filter((section) => section !== null);
 
   if (!nav || links.length === 0 || sections.length === 0) {
     return;
@@ -67,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
         ticking = true;
       }
     },
-    { passive: true },
+    { passive: true }
   );
 
   links.forEach((link) => {
