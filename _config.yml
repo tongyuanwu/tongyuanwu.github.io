@@ -9,7 +9,7 @@ last_name: Wu
 contact_note: >
   The best way to reach me is by email at <a href="mailto:wty20@connect.hku.hk">wty20@connect.hku.hk</a>.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Academic website of Tongyuan Wu, a postdoctoral researcher studying the carbon and biodiversity implications of construction material flows.
+  Tongyuan Wu, a postdoctoral researcher at The University of Hong Kong and member of Sustainability X-Lab, studying construction material flows, carbon emissions, and biodiversity.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.

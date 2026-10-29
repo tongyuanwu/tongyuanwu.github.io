@@ -8,17 +8,18 @@
   color-scheme: light;
   --global-bg-color: #{$white-color};
   --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$green-color-dark};
-  --global-hover-color: #{$green-color-dark};
+  --global-text-color: #243447;
+  --global-text-color-light: #607085;
+  --global-theme-color: #{$sky-color-text};
+  --global-accent-color: #{$sky-color};
+  --global-hover-color: #{$sky-color-hover};
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #{$white-color};
+  --global-divider-color: #dce8f1;
+  --global-card-bg-color: #{$sky-color-light};
   --global-highlight-color: #{$red-color-dark};
   --global-back-to-top-bg-color: rgba(
     #{color.channel($black-color, "red", $space: rgb)},
@@ -78,19 +79,20 @@
 
 html[data-theme="dark"] {
   color-scheme: dark;
-  --global-bg-color: #{$grey-color-dark};
+  --global-bg-color: #111e2c;
   --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$green-color-bright};
-  --global-hover-color: #{$green-color-bright};
-  --global-hover-text-color: #{$white-color};
+  --global-text-color: #e4eef7;
+  --global-text-color-light: #a6bbd0;
+  --global-theme-color: #{$sky-color-bright};
+  --global-accent-color: #{$sky-color-bright};
+  --global-hover-color: #b4e4ff;
+  --global-hover-text-color: #111e2c;
   --global-footer-bg-color: #{$grey-color-light};
   --global-footer-text-color: #{$grey-color-dark};
   --global-footer-link-color: #{$black-color};
   --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #424246;
-  --global-card-bg-color: #{$grey-900};
+  --global-divider-color: #30465b;
+  --global-card-bg-color: #172638;
   --global-back-to-top-bg-color: rgba(
     #{color.channel($white-color, "red", $space: rgb)},
     #{color.channel($white-color, "green", $space: rgb)},

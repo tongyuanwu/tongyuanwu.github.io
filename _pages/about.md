@@ -7,12 +7,13 @@ show_home_news: false
 
 profile:
   align: right
-  image: prof_pic-graduation.jpg
+  image: prof_pic-hku.png
   image_circular: false
   more_info: >
-    <p><a href="https://www.cityu.edu.hk/en/ace/">Department of Architecture and Civil Engineering (ACE)</a></p>
-    <p>City University of Hong Kong</p>
-    <p>Kowloon Tong, Hong Kong</p>
+    <p><a href="https://www.arch.hku.hk/department/rec/">Department of Real Estate and Construction</a></p>
+    <p><a href="https://sustainability-xlab.hku.hk/">Sustainability X-Lab</a></p>
+    <p>The University of Hong Kong</p>
+    <p>Hong Kong</p>
 
 selected_papers: false # rendered manually after the homepage news section
 social: true # includes social icons at the bottom of the page
@@ -27,8 +28,9 @@ latest_posts:
 <div class="home-intro">
   <p>
     Hello! I am <strong>Tongyuan Wu (吴统元)</strong>, a postdoctoral researcher at the
-    <a href="https://www.cityu.edu.hk/en/ace/">Department of Architecture and Civil Engineering (ACE)</a>,
-    City University of Hong Kong.
+    <a href="https://www.arch.hku.hk/department/rec/">Department of Real Estate and Construction</a>,
+    Faculty of Architecture, The University of Hong Kong. I am also a member of
+    <a href="https://sustainability-xlab.hku.hk/">Sustainability X-Lab</a>.
   </p>
 
   <p>
@@ -88,12 +90,9 @@ latest_posts:
         <h3>Postdoctoral Research Fellow</h3>
         <div class="home-affiliations">
           <div class="home-affiliation">
-            <span class="home-affiliation-name">City University of Hong Kong</span>
-            <span>Department of Architecture and Civil Engineering (ACE)</span>
-          </div>
-          <div class="home-affiliation">
             <span class="home-affiliation-name">The University of Hong Kong</span>
-            <span>Department of Civil Engineering</span>
+            <span>Department of Real Estate and Construction, Faculty of Architecture</span>
+            <span><a href="https://sustainability-xlab.hku.hk/">Sustainability X-Lab</a></span>
           </div>
         </div>
       </div>
