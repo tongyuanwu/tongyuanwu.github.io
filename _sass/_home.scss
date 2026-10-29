@@ -17,12 +17,32 @@ html {
   p {
     margin-bottom: 1.15rem;
   }
+
+  a {
+    font-weight: 500;
+  }
 }
 
 article > .profile img {
   aspect-ratio: 3 / 4;
   object-fit: cover;
   object-position: center;
+}
+
+article > .profile .more-info {
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.6;
+
+  p {
+    display: block;
+    margin: 0 0 0.3rem;
+  }
+
+  a {
+    font-weight: 500;
+  }
 }
 
 .home-interests {
