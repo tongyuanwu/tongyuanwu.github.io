@@ -64,6 +64,7 @@ My research examines the **carbon and biodiversity implications of construction 
         <span class="home-project-link">Read the paper ↗</span>
       </div>
     </a>
+
   </div>
 </section>
 

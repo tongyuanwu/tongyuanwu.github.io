@@ -52,6 +52,7 @@ latest_posts:
 </div>
 
 {% if page.show_home_news %}
+
 <section class="home-section home-section-news">
   <div class="home-section-kicker">Latest updates</div>
   <h2>news</h2>
@@ -163,6 +164,7 @@ latest_posts:
         <span class="home-project-link">Global assessment · Scenario modelling</span>
       </div>
     </article>
+
   </div>
 
 </section>
